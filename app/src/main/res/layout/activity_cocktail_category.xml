@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.x15411762.cocktail_dreams.cocktailCategory">
+
+    <ImageButton
+        android:id="@+id/beginner"
+        android:layout_width="375dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/beginner"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/intermediate"
+        android:layout_width="375dp"
+        android:layout_height="92dp"
+        app:srcCompat="@drawable/intermediate"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="112dp"
+        android:scaleType="fitXY"
+        />
+
+    <ImageButton
+        android:id="@+id/expert"
+        android:layout_width="376dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/expert"
+        tools:layout_editor_absoluteY="204dp"
+        tools:layout_editor_absoluteX="4dp"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/summer"
+        android:layout_width="375dp"
+        android:layout_height="95dp"
+        app:srcCompat="@drawable/summer"
+        tools:layout_editor_absoluteY="298dp"
+        tools:layout_editor_absoluteX="4dp"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/premium"
+        android:layout_width="376dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/premium"
+        tools:layout_editor_absoluteY="393dp"
+        tools:layout_editor_absoluteX="4dp"
+        android:scaleType="fitXY"/>
+</android.support.constraint.ConstraintLayout>

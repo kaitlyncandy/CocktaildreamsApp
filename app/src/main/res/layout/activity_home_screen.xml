@@ -7,19 +7,19 @@
     tools:context="com.example.x15411762.cocktail_dreams.homeScreen">
 
     <ImageButton
-        android:id="@+id/Cocktails"
+        android:id="@+id/cocktails"
         android:layout_width="192dp"
         android:layout_height="183dp"
-        app:srcCompat="@drawable/Cocktails"
+        app:srcCompat="@drawable/cocktails"
         tools:layout_editor_absoluteX="184dp"
         tools:layout_editor_absoluteY="16dp"
         android:scaleType="fitXY"/>
 
     <ImageButton
-        android:id="@+id/aboutUs"
+        android:id="@+id/about_us"
         android:layout_width="193dp"
         android:layout_height="184dp"
-        app:srcCompat="@drawable/aboutUs"
+        app:srcCompat="@drawable/about_us"
         tools:layout_editor_absoluteX="184dp"
         tools:layout_editor_absoluteY="194dp"
         android:scaleType="fitXY"/>
