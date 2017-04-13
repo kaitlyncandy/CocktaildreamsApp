@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.x15411762.cocktail_dreams.homeScreen">
+
+    <ImageButton
+        android:id="@+id/Cocktails"
+        android:layout_width="192dp"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/Cocktails"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/aboutUs"
+        android:layout_width="193dp"
+        android:layout_height="184dp"
+        app:srcCompat="@drawable/aboutUs"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="194dp"
+        android:scaleType="fitXY"/>
+
+</android.support.constraint.ConstraintLayout>
