@@ -24,6 +24,7 @@ public class homeScreen extends AppCompatActivity {
             startActivity(intent);
         }
     });
+
 }
 }
 
